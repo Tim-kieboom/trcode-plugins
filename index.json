@@ -1,4 +1,16 @@
 {
   "format": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "hello",
+      "name": "Hello",
+      "description": "An example plugin: says hello in a few languages",
+      "version": "0.1.0",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-hello/releases/download/v0.1.0/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-hello/releases/download/v0.1.0/hello.wasm",
+      "sha256": "3a2daf9e94d9da1dc21b8255d628ab2bb68b4acb558c90f284b99d0126a3967a",
+      "abi": "1.4",
+      "requires": "0.7.1"
+    }
+  ]
 }
