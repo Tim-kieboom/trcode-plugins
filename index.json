@@ -22,6 +22,16 @@
       "sha256": "96957ace8aa9097989ff732cd14ba35ff223b862a9bc4aa1dd43e58c4f542b1d",
       "abi": "1.4",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-git/v0.2.0/README.md"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "description": "The changed files of the repository: stage, commit, fetch, pull and push, with buttons",
+      "version": "0.2.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.1/git.wasm",
+      "sha256": "89b576ed4de56ed76c6e2b3e9739d33d79d0f6f0923b134f3945c13fc67efd9e",
+      "abi": "1.4"
     }
   ]
 }
