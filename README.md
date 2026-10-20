@@ -37,7 +37,8 @@ A plugin is a WebAssembly module with a `manifest.toml`; see the
       "module": "https://github.com/you/trcode-plugin-hello/releases/download/v0.1.0/hello.wasm",
       "sha256": "<sha256 of hello.wasm, lower case hex>",
       "abi": "1.4",
-      "requires": "0.8.0"
+      "requires": "0.8.0",
+      "readme": "https://github.com/you/trcode-plugin-hello/raw/v0.1.0/README.md"
     }
   ]
 }
@@ -46,6 +47,7 @@ A plugin is a WebAssembly module with a `manifest.toml`; see the
 - `id` is the folder name and must equal the `id` in the manifest; `version` and `abi` must equal
   the manifest's too. `abi` is the plugin API the module needs; `requires` is the oldest editor
   (optional).
+- `readme` (optional) is a link to the plugin's README, plain text or Markdown, that `d` shows in the manager; point it at the tag of that version.
 - List a new version as another entry; keep the old ones. A published version must never change:
   the editor pins its hash.
 - URLs must be `https` addresses of `github.com` or `githubusercontent.com`.

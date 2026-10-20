@@ -45,7 +45,9 @@ def problems(index, download):
             found.append(f"{name}: sha256 is not 64 lower case hex digits")
         if "source" in entry:
             found.append(f"{name}: `source` is set by the editor, leave it out")
-        for key in ("manifest", "module"):
+        for key in ("manifest", "module", "readme"):
+            if key not in entry:
+                continue
             url = entry[key]
             host = url.split("/")[2] if url.startswith("https://") else None
             if host not in HOSTS:
@@ -54,6 +56,9 @@ def problems(index, download):
         if pair in seen:
             found.append(f"{name}: {entry['version']} is listed twice")
         seen.add(pair)
+        if download and not found and "readme" in entry:
+            if not urllib.request.urlopen(entry["readme"], timeout=60).read():
+                found.append(f"{name} {entry['version']}: the readme is empty")
         if download and not found:
             body = urllib.request.urlopen(entry["module"], timeout=60).read()
             actual = hashlib.sha256(body).hexdigest()
