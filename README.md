@@ -19,7 +19,19 @@ and installing one asks first.
 
 ## Adding a plugin
 
-A plugin is a WebAssembly module with a `manifest.toml`; see the
+The quick way, once the plugin is released on GitHub (its release has `manifest.toml` and the module):
+
+```sh
+python3 scripts/add_plugin.py you/trcode-plugin-hello --description "Says hello"   # a new plugin
+python3 scripts/add_plugin.py you/trcode-plugin-hello                              # its next version
+```
+
+It reads the manifest of the latest release (`--tag vX.Y.Z` for another), downloads the module
+for its hash, picks the `description.md` or README link, keeps the last description for a new
+version, refuses a version that is listed already, checks the result like CI does and writes
+`index.json`; commit and push it. `--dry-run` only shows the entry.
+
+By hand, a plugin is a WebAssembly module with a `manifest.toml`; see the
 [Git plugin](https://github.com/Tim-kieboom/trcode-plugin-git) for one. Release it on GitHub
 (the module and the manifest as release assets, or raw files of a tag), then add an entry to
 `index.json` in a pull request:
