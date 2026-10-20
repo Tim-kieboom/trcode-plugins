@@ -42,6 +42,16 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.0/markdown.wasm",
       "sha256": "d00dc9837062d03fdee418fbece49160fad1f37948e0d6b108ce2ca7d94ce189",
       "abi": "1.5"
+    },
+    {
+      "id": "markdown",
+      "name": "Markdown Preview",
+      "description": "A preview of the markdown file you edit, in a pane beside the editor",
+      "version": "0.1.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.1/markdown.wasm",
+      "sha256": "add2db86bd10f90b8f39e937a8d90f0aaf62fc67540f61ac6235ea3c29c49680",
+      "abi": "1.5"
     }
   ]
 }
