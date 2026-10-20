@@ -47,7 +47,7 @@ A plugin is a WebAssembly module with a `manifest.toml`; see the
 - `id` is the folder name and must equal the `id` in the manifest; `version` and `abi` must equal
   the manifest's too. `abi` is the plugin API the module needs; `requires` is the oldest editor
   (optional).
-- `readme` (optional) is a link to the plugin's README, plain text or Markdown, that `d` shows in the manager; point it at the tag of that version.
+- `d` in the manager shows what the plugin says about itself: the `description.md` that a plugin publishes next to its `manifest.toml` (a release asset with the same address, apart from the file name; it is installed with the plugin). Plugins that have none can set `readme`, a link to a README (plain text or Markdown) that is shown instead; point it at the tag of that version. Both are optional.
 - List a new version as another entry; keep the old ones. A published version must never change:
   the editor pins its hash.
 - URLs must be `https` addresses of `github.com` or `githubusercontent.com`.
