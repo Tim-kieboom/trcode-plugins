@@ -1,21 +1,21 @@
 # trcode-plugins
 
-A list of plugins for [TerminalCode](https://github.com/Tim-kieboom/TerminalCode), kept apart
-from the editor: add it as a **plugin source** and its plugins show up in "Plugins: Manage"
-beside the official ones, without a new version of the editor.
+The official list of plugins for [TerminalCode](https://github.com/Tim-kieboom/TerminalCode),
+kept apart from the editor: a plugin is added or updated here, without a new version of the editor.
 
 ## Using it
 
-In `settings.json`:
+Nothing to set up: the editor reads this list when you open "Plugins: Manage" (command palette)
+and keeps the last copy it got. The first install of a version pins the module's hash: if the
+same version ever comes with another module, the editor refuses it.
 
-```jsonc
-"plugin_sources": ["https://raw.githubusercontent.com/Tim-kieboom/trcode-plugins/main/index.json"]
-```
+| Plugin | What it is |
+| --- | --- |
+| [Git](https://github.com/Tim-kieboom/trcode-plugin-git) | The changed files of the repository: stage, commit, fetch, pull and push, with buttons |
 
-Open "Plugins: Manage" (command palette). The plugins of this list are marked with
-`Tim-kieboom/trcode-plugins`; installing one asks first and shows the source and the module's
-hash. The first install pins that hash: if the same version ever comes with another module, the
-editor refuses it. A plugin that came from here is updated only from here.
+Your own list works the same way: put an `index.json` like this one in a repository and add its
+address to `plugin_sources` in `settings.json`. Its plugins are marked with where they come from,
+and installing one asks first.
 
 ## Adding a plugin
 
@@ -49,14 +49,14 @@ A plugin is a WebAssembly module with a `manifest.toml`; see the
 - List a new version as another entry; keep the old ones. A published version must never change:
   the editor pins its hash.
 - URLs must be `https` addresses of `github.com` or `githubusercontent.com`.
-- A name that an official plugin has cannot be used here (the official one wins).
+- A name that is listed here cannot be used by anyone else's source (the official list wins).
 
 `python3 scripts/check_index.py --download` runs the same check as CI: the index reads and every
 module has the hash the entry promises.
 
 ## Trust
 
-Installing from this list trusts whoever can merge here and whoever owns the plugin's repository.
+Installing from this list trusts whoever can merge here (the editor does not ask first for this list, which is the official one) and whoever owns the plugin's repository.
 Read what a plugin asks to be allowed to do (shown when you turn it on) before saying yes.
 
 ## License
