@@ -34,6 +34,16 @@
       "abi": "1.4"
     },
     {
+      "id": "git",
+      "name": "Git",
+      "description": "The changed files of the repository: stage, commit, fetch, pull and push, with buttons",
+      "version": "0.2.2",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.2/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.2/git.wasm",
+      "sha256": "c93f108bf800f9dd89b18e324fb2c712a0b0b07965383ee3397ee3f39fc0e148",
+      "abi": "1.4"
+    },
+    {
       "id": "markdown",
       "name": "Markdown Preview",
       "description": "A preview of the markdown file you edit, in a pane beside the editor",
