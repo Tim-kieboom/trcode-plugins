@@ -139,6 +139,39 @@
       "sha256": "e828568e3d0ce9f03e52fb54a46da32359e7345789fefdb38f2b01416d406a37",
       "abi": "1.8",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.3/README.md"
+    },
+    {
+      "id": "test-ui",
+      "name": "Tests",
+      "description": "A throwaway test pane: lists the tests of an adapter, runs them, shows how each ended; t switches adapter",
+      "version": "0.0.4",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/test-ui.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/test_ui.wasm",
+      "sha256": "eb61d839862345540f1daa0649afee8962d36e68e47a6923e8fd037f1d0a9c15",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.4/README.md"
+    },
+    {
+      "id": "fake-adapter",
+      "name": "Fake Test Adapter",
+      "description": "Made-up tests and a clock you turn, for the Tests pane to talk to; it has no pane",
+      "version": "0.0.4",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/fake-adapter.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/fake_adapter.wasm",
+      "sha256": "ef5f8c43c82cf7e38cd0939b8a96bf50f15d55c4a1c49dc1d5ceee7176d84b93",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.4/README.md"
+    },
+    {
+      "id": "rust-adapter",
+      "name": "Rust Test Adapter",
+      "description": "Lists and runs the tests of a Rust project with cargo nextest (which must be installed), for the Tests pane; it has no pane",
+      "version": "0.0.4",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/rust-adapter.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/rust_adapter.wasm",
+      "sha256": "491dedb9e8c652dd5fea611dd682c43749502bc8916e5069cdc3cb5b6a9bf636",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.4/README.md"
     }
   ]
 }
