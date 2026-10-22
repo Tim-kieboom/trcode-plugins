@@ -172,6 +172,39 @@
       "sha256": "491dedb9e8c652dd5fea611dd682c43749502bc8916e5069cdc3cb5b6a9bf636",
       "abi": "1.8",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.4/README.md"
+    },
+    {
+      "id": "test-ui",
+      "name": "Tests",
+      "description": "A throwaway test pane: the tests of an adapter as folders, run one or a folder, shows how each ended; it tries the Rust adapter first",
+      "version": "0.0.5",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/test-ui.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/test_ui.wasm",
+      "sha256": "584e05ebae51dff5b53ea55112021f1062f1c9052a86124a6a9a7f66190c32b7",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.5/README.md"
+    },
+    {
+      "id": "fake-adapter",
+      "name": "Fake Test Adapter",
+      "description": "Made-up tests and a clock you turn, for the Tests pane to talk to; it has no pane",
+      "version": "0.0.5",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/fake-adapter.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/fake_adapter.wasm",
+      "sha256": "623ace77d6e1714ff3605ee915ba0db40a1d7f856500dfe5fb6710a140bfbac5",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.5/README.md"
+    },
+    {
+      "id": "rust-adapter",
+      "name": "Rust Test Adapter",
+      "description": "Lists and runs the tests of a Rust project with cargo nextest (which must be installed), for the Tests pane; it has no pane",
+      "version": "0.0.5",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/rust-adapter.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/rust_adapter.wasm",
+      "sha256": "58e20a5f32bdd62987267075749516386f73b7d95d6944eca359416f8c58bbb8",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.5/README.md"
     }
   ]
 }
