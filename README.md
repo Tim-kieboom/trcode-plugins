@@ -13,8 +13,8 @@ same version ever comes with another module, the editor refuses it.
 | --- | --- |
 | [Git](https://github.com/Tim-kieboom/trcode-plugin-git) | The changed files of the repository: stage, commit, fetch, pull and push, with buttons |
 | [Markdown Preview](https://github.com/Tim-kieboom/trcode-plugin-markdown) | A preview of the markdown file you edit, in a pane beside the editor (needs plugin API 1.5) |
-| [Tests](https://github.com/Tim-kieboom/trcode-plugin-test) | A throwaway test pane that tries the calls between plugins (needs plugin API 1.7 and the Fake Test Adapter) |
-| [Fake Test Adapter](https://github.com/Tim-kieboom/trcode-plugin-test) | Made-up tests and a clock you turn, for the Tests pane (needs plugin API 1.7) |
+| [Tests](https://github.com/Tim-kieboom/trcode-plugin-test) | A throwaway test pane that tries the calls between plugins (needs plugin API 1.8 and the Fake Test Adapter) |
+| [Fake Test Adapter](https://github.com/Tim-kieboom/trcode-plugin-test) | Made-up tests and a clock you turn, for the Tests pane (needs plugin API 1.8) |
 
 Your own list works the same way: put an `index.json` like this one in a repository and add its
 address to `plugin_sources` in `settings.json`. Its plugins are marked with where they come from,

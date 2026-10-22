@@ -84,6 +84,28 @@
       "sha256": "a17f9e57bb1f648ceace05f5b7835317820cc7d828dbec40d130698c8717d504",
       "abi": "1.7",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.1/README.md"
+    },
+    {
+      "id": "test-ui",
+      "name": "Tests",
+      "description": "A throwaway test pane that tries the calls between plugins; needs the Fake Test Adapter",
+      "version": "0.0.2",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.2/test-ui.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.2/test_ui.wasm",
+      "sha256": "63ea8612898fd29f70307cd23f00f28853cc99ddc4316a9735f513efca5a24bd",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.2/README.md"
+    },
+    {
+      "id": "fake-adapter",
+      "name": "Fake Test Adapter",
+      "description": "Made-up tests and a clock you turn, for the Tests pane to talk to; it has no pane",
+      "version": "0.0.2",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.2/fake-adapter.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.2/fake_adapter.wasm",
+      "sha256": "41edbab9febc2a23fd1501e7d8a4fb9a48b8f2a1d13904125c11c7450223fcea",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.2/README.md"
     }
   ]
 }
