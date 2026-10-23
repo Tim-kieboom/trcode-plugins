@@ -182,6 +182,28 @@
       "sha256": "1976a48f2e284f62697ac19e70d012a4a2bd3a5475821492b88114928d7f9c99",
       "abi": "1.8",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.6/README.md"
+    },
+    {
+      "id": "test-ui",
+      "name": "Tests",
+      "description": "A throwaway test pane: the tests of an adapter as folders, with Find tests and Run buttons; it tries the Rust adapter first",
+      "version": "0.0.7",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.7/test-ui.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.7/test_ui.wasm",
+      "sha256": "401c7fb7ed864edfb0e7bc7eebf84dfe587086292cf590e45bcfb70bd20aa5ff",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.7/README.md"
+    },
+    {
+      "id": "rust-adapter",
+      "name": "Rust Test Adapter",
+      "description": "Lists and runs the tests of a Rust project with cargo nextest (which must be installed), for the Tests pane; it has no pane",
+      "version": "0.0.7",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.7/rust-adapter.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.7/rust_adapter.wasm",
+      "sha256": "89fabf19c3e807d8a45881ca2b0810b4418a279d23b1dc50510b2b33d324bab9",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.7/README.md"
     }
   ]
 }
