@@ -11,7 +11,7 @@ same version ever comes with another module, the editor refuses it.
 
 | Plugin | What it is |
 | --- | --- |
-| [Git](https://github.com/Tim-kieboom/trcode-plugin-git) | The changed files of the repository: stage, commit, fetch, pull and push, with buttons |
+| [Git](https://github.com/Tim-kieboom/trcode-plugin-git) | The changed files of the repository: stage, commit, fetch, pull and push, with buttons and a right-click menu (0.3.0 needs plugin API 1.10, TerminalCode 0.9.5) |
 | [Markdown Preview](https://github.com/Tim-kieboom/trcode-plugin-markdown) | A preview of the markdown file you edit, in a pane beside the editor (needs plugin API 1.5) |
 | [Tests](https://github.com/Tim-kieboom/trcode-plugin-test) | The tests of a project as folders, with Run buttons; a click opens a test's code, and what a failed test wrote is shown under the tests (needs plugin API 1.9, TerminalCode 0.9.4, and the Rust Test Adapter) |
 | [Fake Test Adapter](https://github.com/Tim-kieboom/trcode-plugin-test) | Made-up tests and a clock you turn, for the Tests pane (needs plugin API 1.8) |
