@@ -302,6 +302,28 @@
       "sha256": "2cf06f24965ff332098a12e4130bda0f1e928d4eca58fd5dc924528c0b0c3dfc",
       "abi": "1.8",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.11/README.md"
+    },
+    {
+      "id": "test-ui",
+      "name": "Tests",
+      "description": "A throwaway test pane: the tests of an adapter as folders, with Find tests and Run buttons; it says when it is searching and when the project does not build (with the compiler's errors); a right click has a menu (code, error, run, debug); it tries the Rust adapter first",
+      "version": "0.0.12",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.12/test-ui.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.12/test_ui.wasm",
+      "sha256": "1e67bdd018661332454692e0f91bac101156e1947a05066d21532f059b32f0f3",
+      "abi": "1.11",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.12/README.md"
+    },
+    {
+      "id": "rust-adapter",
+      "name": "Rust Test Adapter",
+      "description": "Lists and runs the tests of a Rust project with cargo nextest (which must be installed), and finds the code of a test (with grep, on Linux and macOS), for the Tests pane; it has no pane",
+      "version": "0.0.12",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.12/rust-adapter.manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.12/rust_adapter.wasm",
+      "sha256": "2675049b2ba98f2a9b42944c7c626ec94293d81929e257f90557a6975d4af81b",
+      "abi": "1.8",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.12/README.md"
     }
   ]
 }
