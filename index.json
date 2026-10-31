@@ -335,6 +335,28 @@
       "sha256": "ff896e6d07c17fa394e9f04a3302620e555ece5533bc4cc5f1bffd351e5bae3f",
       "abi": "1.12",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-sol-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "python-syntax",
+      "name": "Python",
+      "description": "Syntax highlighting for Python (.py, .pyi, .pyw): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-python-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-python-syntax/releases/download/v0.0.1/python.wasm",
+      "sha256": "d587f57f9c7eb6db6fa72096a8d95da1599aef9c3ba58e258978a279f619b200",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-python-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "lua-syntax",
+      "name": "Lua",
+      "description": "Syntax highlighting for Lua (.lua): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-lua-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-lua-syntax/releases/download/v0.0.1/lua.wasm",
+      "sha256": "b45fac61a274aa3c303848abdcd4d3748d8a3f54dd5acc1a22c037b3f529848b",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-lua-syntax/v0.0.1/README.md"
     }
   ]
 }
