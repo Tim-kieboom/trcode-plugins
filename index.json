@@ -357,6 +357,17 @@
       "sha256": "b45fac61a274aa3c303848abdcd4d3748d8a3f54dd5acc1a22c037b3f529848b",
       "abi": "1.12",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-lua-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "bash-syntax",
+      "name": "Bash",
+      "description": "Syntax highlighting for shell scripts (.sh, .bash, .zsh): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-bash-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-bash-syntax/releases/download/v0.0.1/bash.wasm",
+      "sha256": "3ad20050b90b7537100769f0ade23f54663f2e397f88b6b91ae5307f41a3b28d",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-bash-syntax/v0.0.1/README.md"
     }
   ]
 }
