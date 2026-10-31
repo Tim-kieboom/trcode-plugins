@@ -324,6 +324,17 @@
       "sha256": "2675049b2ba98f2a9b42944c7c626ec94293d81929e257f90557a6975d4af81b",
       "abi": "1.8",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.12/README.md"
+    },
+    {
+      "id": "sol-syntax",
+      "name": "Sol",
+      "description": "Syntax highlighting for the Sol programming language (.sol, .solc): the tree-sitter grammar and query of the Zed extension; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-sol-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-sol-syntax/releases/download/v0.0.1/sol.wasm",
+      "sha256": "ff896e6d07c17fa394e9f04a3302620e555ece5533bc4cc5f1bffd351e5bae3f",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-sol-syntax/v0.0.1/README.md"
     }
   ]
 }
