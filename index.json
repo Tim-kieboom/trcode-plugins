@@ -372,13 +372,13 @@
     {
       "id": "html-syntax",
       "name": "HTML",
-      "description": "Syntax highlighting for HTML (.html, .htm, .xhtml): the tree-sitter grammar and query; a language and no code",
-      "version": "0.0.1",
-      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-html-syntax/releases/download/v0.0.1/manifest.toml",
-      "module": "https://github.com/Tim-kieboom/trcode-plugin-html-syntax/releases/download/v0.0.1/html.wasm",
+      "description": "Syntax highlighting for HTML (.html, .htm, .xhtml), with JavaScript in <script> and CSS in <style>: the tree-sitter grammar and queries; a language and no code",
+      "version": "0.0.2",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-html-syntax/releases/download/v0.0.2/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-html-syntax/releases/download/v0.0.2/html.wasm",
       "sha256": "0a9e1d46ccc2df616d77e7c07bb744e92ee5b2257d4364ea327c09c0ee067058",
-      "abi": "1.12",
-      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-html-syntax/v0.0.1/README.md"
+      "abi": "1.13",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-html-syntax/v0.0.2/README.md"
     },
     {
       "id": "css-syntax",
