@@ -368,6 +368,28 @@
       "sha256": "3ad20050b90b7537100769f0ade23f54663f2e397f88b6b91ae5307f41a3b28d",
       "abi": "1.12",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-bash-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "html-syntax",
+      "name": "HTML",
+      "description": "Syntax highlighting for HTML (.html, .htm, .xhtml): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-html-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-html-syntax/releases/download/v0.0.1/html.wasm",
+      "sha256": "0a9e1d46ccc2df616d77e7c07bb744e92ee5b2257d4364ea327c09c0ee067058",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-html-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "css-syntax",
+      "name": "CSS",
+      "description": "Syntax highlighting for CSS (.css): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-css-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-css-syntax/releases/download/v0.0.1/css.wasm",
+      "sha256": "4bf8816c81317b8e74fec17cddcbf797ffd23f33a0c96d9d429c3ce8ad811437",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-css-syntax/v0.0.1/README.md"
     }
   ]
 }
