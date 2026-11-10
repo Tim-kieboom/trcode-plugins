@@ -390,6 +390,17 @@
       "sha256": "4bf8816c81317b8e74fec17cddcbf797ffd23f33a0c96d9d429c3ce8ad811437",
       "abi": "1.12",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-css-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "c-syntax",
+      "name": "C",
+      "description": "Syntax highlighting for C (.c, .h): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-c-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-c-syntax/releases/download/v0.0.1/c.wasm",
+      "sha256": "ebe5cd34439e5c95908c97eb6d3cdc7e93b1f001cba1b3059d8adb3e46703885",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-c-syntax/v0.0.1/README.md"
     }
   ]
 }
