@@ -422,6 +422,16 @@
       "sha256": "e2322b69b03fa958a00e4af54ea1b6721ede342b9700e53a96368241ec9c4550",
       "abi": "1.12",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-bend-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "ocaml-syntax",
+      "name": "OCaml",
+      "description": "OCaml syntax highlighting: the tree-sitter grammar and query as a plugin",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-ocaml-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-ocaml-syntax/releases/download/v0.0.1/ocaml.wasm",
+      "sha256": "3a167655e277b42288aa0154d861be53285b0cafc8749b99d12a18957a3d4639",
+      "abi": "1.12"
     }
   ]
 }
