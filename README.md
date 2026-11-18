@@ -30,7 +30,7 @@ python3 scripts/add_plugin.py you/trcode-plugin-hello --description "Says hello"
 python3 scripts/add_plugin.py you/trcode-plugin-hello                              # its next version
 ```
 
-It reads the manifest of the latest release (`--tag vX.Y.Z` for another), downloads the module
+It also works for a plugin that is only a language (a `[language]` table in its manifest and a tree-sitter grammar as its module). It reads the manifest of the latest release (`--tag vX.Y.Z` for another), downloads the module
 for its hash, picks the `description.md` or README link, keeps the last description for a new
 version, refuses a version that is listed already, checks the result like CI does and writes
 `index.json`; commit and push it. `--dry-run` only shows the entry.

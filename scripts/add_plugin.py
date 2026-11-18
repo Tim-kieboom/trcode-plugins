@@ -5,8 +5,9 @@
     python3 scripts/add_plugin.py Tim-kieboom/trcode-plugin-git --tag v0.2.1
     python3 scripts/add_plugin.py you/trcode-plugin-hello --description "Says hello"
 
-The release must have `manifest.toml` and the module the manifest names (`wasm`) as
-assets, as the plugins' release workflows publish them; `description.md` is optional.
+The release must have `manifest.toml` and the module the manifest names as assets, as the
+plugins' release workflows publish them: `wasm` for a plugin with code, or the grammar
+(`[language]` `grammar`) for a plugin that is only a language; `description.md` is optional.
 The entry's fields come from the manifest, the hash is of the module as it is
 downloaded, and the result is checked like CI does (`check_index.py --download`).
 A version that is listed already is refused: a published version must never change.
@@ -48,17 +49,30 @@ def latest_tag(repo):
     return json.loads(body)["tag_name"]
 
 
+def module_name(manifest):
+    """The file the installer downloads: the plugin's `wasm`, or the grammar of a language
+    plugin (the editor refuses a manifest that has both, or neither)."""
+    code = manifest.get("wasm")
+    grammar = manifest.get("language", {}).get("grammar")
+    if code and grammar:
+        sys.exit("error: the manifest has `wasm` and a language `grammar`; a plugin is one or the other")
+    if not code and not grammar:
+        sys.exit("error: the manifest has neither `wasm` nor a `[language]` with a `grammar`")
+    return code or grammar
+
+
 def build_entry(repo, tag, args, listed):
     base = f"https://github.com/{repo}/releases/download/{tag}"
     manifest_bytes = get(f"{base}/manifest.toml", "the manifest")
     manifest = tomllib.loads(manifest_bytes.decode("utf-8"))
-    for key in ("id", "version", "abi", "wasm"):
+    for key in ("id", "version", "abi"):
         if key not in manifest:
             sys.exit(f"error: the manifest has no `{key}`")
+    module_file = module_name(manifest)
     if tag.lstrip("v") != manifest["version"]:
         sys.exit(f"error: the tag is {tag} but the manifest says {manifest['version']}")
 
-    module = get(f"{base}/{manifest['wasm']}", "the module")
+    module = get(f"{base}/{module_file}", "the module")
     sha256 = hashlib.sha256(module).hexdigest()
 
     previous = [e for e in listed if e["id"] == manifest["id"]]
@@ -72,7 +86,7 @@ def build_entry(repo, tag, args, listed):
         "description": description,
         "version": manifest["version"],
         "manifest": f"{base}/manifest.toml",
-        "module": f"{base}/{manifest['wasm']}",
+        "module": f"{base}/{module_file}",
         "sha256": sha256,
         "abi": manifest["abi"],
     }
