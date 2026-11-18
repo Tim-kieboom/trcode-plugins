@@ -411,6 +411,17 @@
       "sha256": "ebe5cd34439e5c95908c97eb6d3cdc7e93b1f001cba1b3059d8adb3e46703885",
       "abi": "1.12",
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-c-syntax/v0.0.1/README.md"
+    },
+    {
+      "id": "bend-syntax",
+      "name": "Bend",
+      "description": "Syntax highlighting for Bend 2 (.bend): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-bend-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-bend-syntax/releases/download/v0.0.1/bend.wasm",
+      "sha256": "e2322b69b03fa958a00e4af54ea1b6721ede342b9700e53a96368241ec9c4550",
+      "abi": "1.12",
+      "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-bend-syntax/v0.0.1/README.md"
     }
   ]
 }
