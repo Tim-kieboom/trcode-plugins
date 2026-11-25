@@ -54,6 +54,7 @@ By hand, a plugin is a WebAssembly module with a `manifest.toml`; see the
       "sha256": "<sha256 of hello.wasm, lower case hex>",
       "abi": "1.4",
       "requires": "0.8.0",
+      "tags": ["syntax", "python"],
       "readme": "https://github.com/you/trcode-plugin-hello/raw/v0.1.0/README.md"
     }
   ]
@@ -63,6 +64,7 @@ By hand, a plugin is a WebAssembly module with a `manifest.toml`; see the
 - `id` is the folder name and must equal the `id` in the manifest; `version` and `abi` must equal
   the manifest's too. `abi` is the plugin API the module needs; `requires` is the oldest editor
   (optional).
+- `tags` (optional) is what the manager's search finds the plugin by (`/` and `tag:syntax`): a list from the set the editor knows, what the plugin is (`syntax`, `git`, `test`, `language-server`) and the language it is for (`python`, `c++`, ...). The manifest has the same `tags` and is the source of truth: `scripts/add_plugin.py` copies them into the entry, and `scripts/check_index.py` refuses a name the editor does not know (the editor would leave it out). A new tag needs an editor release first.
 - `d` in the manager shows what the plugin says about itself: the `description.md` that a plugin publishes next to its `manifest.toml` (a release asset with the same address, apart from the file name; it is installed with the plugin). Plugins that have none can set `readme`, a link to a README (plain text or Markdown) that is shown instead; point it at the tag of that version. Both are optional.
 - List a new version as another entry; keep the old ones. A published version must never change:
   the editor pins its hash.

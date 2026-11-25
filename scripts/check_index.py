@@ -20,6 +20,14 @@ HOSTS = {
     "release-assets.githubusercontent.com",
 }
 REQUIRED = ["id", "name", "version", "manifest", "module", "sha256", "abi"]
+# The tags TerminalCode knows (`src/plugins/tags.rs`): the editor leaves out any other, so a
+# plugin tagged with one would not be found by it. Keep in step with that file.
+TAGS = {
+    "syntax", "git", "test", "language-server",
+    "bend", "c", "c++", "c#", "css", "dockerfile", "go", "html", "java", "javascript", "json",
+    "kotlin", "lua", "markdown", "nix", "ocaml", "php", "powershell", "python", "ruby", "rust",
+    "shell", "sol", "sql", "swift", "toml", "typescript", "xml", "yaml", "zig",
+}
 
 
 def problems(index, download):
@@ -41,6 +49,14 @@ def problems(index, download):
                 found.append(f"{name}: `{key}` is not a version such as 1.4")
         if "requires" in entry and not VERSION.match(entry["requires"]):
             found.append(f"{name}: `requires` is not a version such as 0.8.0")
+        if "tags" in entry:
+            tags = entry["tags"]
+            if not isinstance(tags, list) or not all(isinstance(tag, str) for tag in tags):
+                found.append(f"{name}: `tags` is not a list of names")
+            else:
+                unknown = [tag for tag in tags if tag not in TAGS]
+                if unknown:
+                    found.append(f"{name}: tags TerminalCode does not know: {', '.join(unknown)}")
         if not HASH.match(entry["sha256"]):
             found.append(f"{name}: sha256 is not 64 lower case hex digits")
         if "source" in entry:

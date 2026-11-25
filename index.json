@@ -10,6 +10,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.1.0/git.wasm",
       "sha256": "fd145e346a16af1a99548f5c58ca858ea252d1f40f2346484c3fbb8f33c181c4",
       "abi": "1.3",
+      "tags": [
+        "git"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-git/v0.1.0/README.md"
     },
     {
@@ -21,6 +24,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.0/git.wasm",
       "sha256": "96957ace8aa9097989ff732cd14ba35ff223b862a9bc4aa1dd43e58c4f542b1d",
       "abi": "1.4",
+      "tags": [
+        "git"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-git/v0.2.0/README.md"
     },
     {
@@ -31,7 +37,10 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.1/git.wasm",
       "sha256": "89b576ed4de56ed76c6e2b3e9739d33d79d0f6f0923b134f3945c13fc67efd9e",
-      "abi": "1.4"
+      "abi": "1.4",
+      "tags": [
+        "git"
+      ]
     },
     {
       "id": "git",
@@ -41,7 +50,10 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.2/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.2.2/git.wasm",
       "sha256": "c93f108bf800f9dd89b18e324fb2c712a0b0b07965383ee3397ee3f39fc0e148",
-      "abi": "1.4"
+      "abi": "1.4",
+      "tags": [
+        "git"
+      ]
     },
     {
       "id": "git",
@@ -51,7 +63,10 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.3.0/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.3.0/git.wasm",
       "sha256": "87177d4a2c57a12cbccd81c9f5c0a1eb1814fa5f0d35f7ca90c013a0d8327b82",
-      "abi": "1.10"
+      "abi": "1.10",
+      "tags": [
+        "git"
+      ]
     },
     {
       "id": "git",
@@ -61,7 +76,10 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.5.0/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-git/releases/download/v0.5.0/git.wasm",
       "sha256": "89b172400879db0d4d37d86dc9064c40057bce33d5984033f86f5d167ba3c0e7",
-      "abi": "1.15"
+      "abi": "1.15",
+      "tags": [
+        "git"
+      ]
     },
     {
       "id": "markdown",
@@ -71,7 +89,10 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.0/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.0/markdown.wasm",
       "sha256": "d00dc9837062d03fdee418fbece49160fad1f37948e0d6b108ce2ca7d94ce189",
-      "abi": "1.5"
+      "abi": "1.5",
+      "tags": [
+        "markdown"
+      ]
     },
     {
       "id": "markdown",
@@ -81,7 +102,10 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.1/markdown.wasm",
       "sha256": "add2db86bd10f90b8f39e937a8d90f0aaf62fc67540f61ac6235ea3c29c49680",
-      "abi": "1.5"
+      "abi": "1.5",
+      "tags": [
+        "markdown"
+      ]
     },
     {
       "id": "markdown",
@@ -91,7 +115,10 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.2/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-markdown/releases/download/v0.1.2/markdown.wasm",
       "sha256": "befec133b67b62a716bf011574eb53d9ed9c95b883af037596fd0c28005394fd",
-      "abi": "1.5"
+      "abi": "1.5",
+      "tags": [
+        "markdown"
+      ]
     },
     {
       "id": "test-ui",
@@ -102,6 +129,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.1/test_ui.wasm",
       "sha256": "e53ffdade5cb38ef6763864baea2e1b261683fbd69c487a83fe2b37c71dbca42",
       "abi": "1.7",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.1/README.md"
     },
     {
@@ -113,6 +143,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.2/test_ui.wasm",
       "sha256": "63ea8612898fd29f70307cd23f00f28853cc99ddc4316a9735f513efca5a24bd",
       "abi": "1.8",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.2/README.md"
     },
     {
@@ -124,6 +157,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.3/test_ui.wasm",
       "sha256": "22e1298cf35e894889b23fa14ba78d5431ee655df96079a1d709257974599d8d",
       "abi": "1.8",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.3/README.md"
     },
     {
@@ -135,6 +171,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.3/rust_adapter.wasm",
       "sha256": "e828568e3d0ce9f03e52fb54a46da32359e7345789fefdb38f2b01416d406a37",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.3/README.md"
     },
     {
@@ -146,6 +186,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/test_ui.wasm",
       "sha256": "eb61d839862345540f1daa0649afee8962d36e68e47a6923e8fd037f1d0a9c15",
       "abi": "1.8",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.4/README.md"
     },
     {
@@ -157,6 +200,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.4/rust_adapter.wasm",
       "sha256": "491dedb9e8c652dd5fea611dd682c43749502bc8916e5069cdc3cb5b6a9bf636",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.4/README.md"
     },
     {
@@ -168,6 +215,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/test_ui.wasm",
       "sha256": "584e05ebae51dff5b53ea55112021f1062f1c9052a86124a6a9a7f66190c32b7",
       "abi": "1.8",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.5/README.md"
     },
     {
@@ -179,6 +229,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.5/rust_adapter.wasm",
       "sha256": "58e20a5f32bdd62987267075749516386f73b7d95d6944eca359416f8c58bbb8",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.5/README.md"
     },
     {
@@ -190,6 +244,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.6/test_ui.wasm",
       "sha256": "8579bcf9ed49c2471fd73e87c603536786fc7de8c1111a46cb714eeba05e07e2",
       "abi": "1.8",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.6/README.md"
     },
     {
@@ -201,6 +258,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.6/rust_adapter.wasm",
       "sha256": "1976a48f2e284f62697ac19e70d012a4a2bd3a5475821492b88114928d7f9c99",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.6/README.md"
     },
     {
@@ -212,6 +273,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.7/test_ui.wasm",
       "sha256": "401c7fb7ed864edfb0e7bc7eebf84dfe587086292cf590e45bcfb70bd20aa5ff",
       "abi": "1.8",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.7/README.md"
     },
     {
@@ -223,6 +287,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.7/rust_adapter.wasm",
       "sha256": "89fabf19c3e807d8a45881ca2b0810b4418a279d23b1dc50510b2b33d324bab9",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.7/README.md"
     },
     {
@@ -234,6 +302,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.8/test_ui.wasm",
       "sha256": "e1bfce4cb83989e51adcc153b6bae0e40be44cb4bb84d1aa2104814687c02294",
       "abi": "1.8",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.8/README.md"
     },
     {
@@ -245,6 +316,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.8/rust_adapter.wasm",
       "sha256": "16c9586fc4a2b12c2c4a1fcba0e9af2941446606b203976d68912b8be728a57e",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.8/README.md"
     },
     {
@@ -256,6 +331,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.9/test_ui.wasm",
       "sha256": "6c1f5017fc00c824b02294f142773bbcc0f0e66ec64f5de0cb800319c26b316d",
       "abi": "1.9",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.9/README.md"
     },
     {
@@ -267,6 +345,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.9/rust_adapter.wasm",
       "sha256": "1e0582a78cf04f1696c4037d2a3252db03aab21eae40b9ed2351ab3ea8cd514a",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.9/README.md"
     },
     {
@@ -278,6 +360,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.10/test_ui.wasm",
       "sha256": "81d9ac2bfe0e8e1b76ac67ff43e7fa0d5bcc90dbe6179dac42715f19d812448d",
       "abi": "1.11",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.10/README.md"
     },
     {
@@ -289,6 +374,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.10/rust_adapter.wasm",
       "sha256": "c7fc8a928993debccfe7d0dafe3b0a4490bf641371d9de49aa429e33ecd815cc",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.10/README.md"
     },
     {
@@ -300,6 +389,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.11/test_ui.wasm",
       "sha256": "81e8a019b1aaf5ed7e39b92ae4e00d50a91b50914f35d693ab3f61a92e75ddf9",
       "abi": "1.11",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.11/README.md"
     },
     {
@@ -311,6 +403,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.11/rust_adapter.wasm",
       "sha256": "2cf06f24965ff332098a12e4130bda0f1e928d4eca58fd5dc924528c0b0c3dfc",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.11/README.md"
     },
     {
@@ -322,6 +418,9 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.12/test_ui.wasm",
       "sha256": "1e67bdd018661332454692e0f91bac101156e1947a05066d21532f059b32f0f3",
       "abi": "1.11",
+      "tags": [
+        "test"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.12/README.md"
     },
     {
@@ -333,6 +432,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-test/releases/download/v0.0.12/rust_adapter.wasm",
       "sha256": "2675049b2ba98f2a9b42944c7c626ec94293d81929e257f90557a6975d4af81b",
       "abi": "1.8",
+      "tags": [
+        "test",
+        "rust"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-test/v0.0.12/README.md"
     },
     {
@@ -344,6 +447,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-sol-syntax/releases/download/v0.0.1/sol.wasm",
       "sha256": "ff896e6d07c17fa394e9f04a3302620e555ece5533bc4cc5f1bffd351e5bae3f",
       "abi": "1.12",
+      "tags": [
+        "syntax",
+        "sol"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-sol-syntax/v0.0.1/README.md"
     },
     {
@@ -355,6 +462,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-python-syntax/releases/download/v0.0.1/python.wasm",
       "sha256": "d587f57f9c7eb6db6fa72096a8d95da1599aef9c3ba58e258978a279f619b200",
       "abi": "1.12",
+      "tags": [
+        "syntax",
+        "python"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-python-syntax/v0.0.1/README.md"
     },
     {
@@ -366,6 +477,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-lua-syntax/releases/download/v0.0.1/lua.wasm",
       "sha256": "b45fac61a274aa3c303848abdcd4d3748d8a3f54dd5acc1a22c037b3f529848b",
       "abi": "1.12",
+      "tags": [
+        "syntax",
+        "lua"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-lua-syntax/v0.0.1/README.md"
     },
     {
@@ -377,6 +492,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-bash-syntax/releases/download/v0.0.1/bash.wasm",
       "sha256": "3ad20050b90b7537100769f0ade23f54663f2e397f88b6b91ae5307f41a3b28d",
       "abi": "1.12",
+      "tags": [
+        "syntax",
+        "shell"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-bash-syntax/v0.0.1/README.md"
     },
     {
@@ -388,6 +507,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-html-syntax/releases/download/v0.0.2/html.wasm",
       "sha256": "0a9e1d46ccc2df616d77e7c07bb744e92ee5b2257d4364ea327c09c0ee067058",
       "abi": "1.13",
+      "tags": [
+        "syntax",
+        "html"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-html-syntax/v0.0.2/README.md"
     },
     {
@@ -399,6 +522,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-css-syntax/releases/download/v0.0.1/css.wasm",
       "sha256": "4bf8816c81317b8e74fec17cddcbf797ffd23f33a0c96d9d429c3ce8ad811437",
       "abi": "1.12",
+      "tags": [
+        "syntax",
+        "css"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-css-syntax/v0.0.1/README.md"
     },
     {
@@ -410,6 +537,11 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-c-syntax/releases/download/v0.1.0/cpp.wasm",
       "sha256": "e88220362f1672c1aae5064caccba8079fd4aaab5c5aa5acf4022cb9b05ed5c8",
       "abi": "1.12",
+      "tags": [
+        "syntax",
+        "c",
+        "c++"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-c-syntax/v0.1.0/README.md"
     },
     {
@@ -421,6 +553,10 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-bend-syntax/releases/download/v0.0.1/bend.wasm",
       "sha256": "e2322b69b03fa958a00e4af54ea1b6721ede342b9700e53a96368241ec9c4550",
       "abi": "1.12",
+      "tags": [
+        "syntax",
+        "bend"
+      ],
       "readme": "https://raw.githubusercontent.com/Tim-kieboom/trcode-plugin-bend-syntax/v0.0.1/README.md"
     },
     {
@@ -431,7 +567,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-ocaml-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-ocaml-syntax/releases/download/v0.0.1/ocaml.wasm",
       "sha256": "3a167655e277b42288aa0154d861be53285b0cafc8749b99d12a18957a3d4639",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "ocaml"
+      ]
     },
     {
       "id": "go-syntax",
@@ -441,7 +581,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-go-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-go-syntax/releases/download/v0.0.1/go.wasm",
       "sha256": "01b48304013852358fe76e12295a807449a8b3f7531c2f3f96824983dc7ddcd7",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "go"
+      ]
     },
     {
       "id": "java-syntax",
@@ -451,7 +595,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-java-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-java-syntax/releases/download/v0.0.1/java.wasm",
       "sha256": "3c9cd42496cc5343715347ef80bc9df0d1832349b302029e0e1f2302c2132a65",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "java"
+      ]
     },
     {
       "id": "csharp-syntax",
@@ -461,7 +609,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-csharp-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-csharp-syntax/releases/download/v0.0.1/csharp.wasm",
       "sha256": "bffee8f04add1094a04b82f26b0bbdfb29ffb8f5d732896876c934827b512d75",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "c#"
+      ]
     },
     {
       "id": "yaml-syntax",
@@ -471,7 +623,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-yaml-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-yaml-syntax/releases/download/v0.0.1/yaml.wasm",
       "sha256": "5615959407f7c14b60ddd9deaa3638642930df40e6315271441fe2aea1627114",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "yaml"
+      ]
     },
     {
       "id": "sql-syntax",
@@ -481,7 +637,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-sql-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-sql-syntax/releases/download/v0.0.1/sql.wasm",
       "sha256": "e76a29633e02f2c4391761fa7564b354e2a7508dea9b1458a2b8ec3486cb2a12",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "sql"
+      ]
     },
     {
       "id": "php-syntax",
@@ -491,7 +651,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-php-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-php-syntax/releases/download/v0.0.1/php.wasm",
       "sha256": "78061225be6015f26a607237b566bd0b1ac62939db9f8e1dca934ccfb4dc1e63",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "php"
+      ]
     },
     {
       "id": "ruby-syntax",
@@ -501,7 +665,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-ruby-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-ruby-syntax/releases/download/v0.0.1/ruby.wasm",
       "sha256": "781f5bc2e9d8661cace36efe1dc99d4c215a335872d79ec92c20782ffda0ccc3",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "ruby"
+      ]
     },
     {
       "id": "kotlin-syntax",
@@ -511,7 +679,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-kotlin-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-kotlin-syntax/releases/download/v0.0.1/kotlin.wasm",
       "sha256": "c44884d6d640e150b1684e7429d16c041affc5a272444e1a23179b9bbade9978",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "kotlin"
+      ]
     },
     {
       "id": "swift-syntax",
@@ -521,7 +693,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-swift-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-swift-syntax/releases/download/v0.0.1/swift.wasm",
       "sha256": "87d42706536e9d98cb1194154ca919d8b24cbf79f93738110edf8c50cc2aa55d",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "swift"
+      ]
     },
     {
       "id": "zig-syntax",
@@ -531,7 +707,11 @@
       "manifest": "https://github.com/Tim-kieboom/trcode-plugin-zig-syntax/releases/download/v0.0.1/manifest.toml",
       "module": "https://github.com/Tim-kieboom/trcode-plugin-zig-syntax/releases/download/v0.0.1/zig.wasm",
       "sha256": "8fbd344e08cde3b8b95fa6b02dbbc5428342dbade26f85bd8d5ed16c40d08fc5",
-      "abi": "1.12"
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "zig"
+      ]
     }
   ]
 }

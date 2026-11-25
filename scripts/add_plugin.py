@@ -8,7 +8,7 @@
 The release must have `manifest.toml` and the module the manifest names as assets, as the
 plugins' release workflows publish them: `wasm` for a plugin with code, or the grammar
 (`[language]` `grammar`) for a plugin that is only a language; `description.md` is optional.
-The entry's fields come from the manifest, the hash is of the module as it is
+The entry's fields come from the manifest (the tags too), the hash is of the module as it is
 downloaded, and the result is checked like CI does (`check_index.py --download`).
 A version that is listed already is refused: a published version must never change.
 """
@@ -92,6 +92,11 @@ def build_entry(repo, tag, args, listed):
     }
     if "requires" in manifest:
         entry["requires"] = manifest["requires"]
+    # What the manager finds the plugin by: the manifest's tags (the source of truth); a
+    # manifest of an older release has none, so the last listed version's are kept.
+    tags = manifest.get("tags") or (previous[-1].get("tags") if previous else None)
+    if tags:
+        entry["tags"] = tags
 
     # `d` shows description.md when the release has one; else a README, if there is one.
     has_description = get(f"{base}/description.md", "the description", optional=True)
