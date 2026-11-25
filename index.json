@@ -712,6 +712,48 @@
         "syntax",
         "zig"
       ]
+    },
+    {
+      "id": "powershell-syntax",
+      "name": "PowerShell",
+      "description": "Syntax highlighting for PowerShell (.ps1, . psm1, . psd1): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-powershell-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-powershell-syntax/releases/download/v0.0.1/powershell.wasm",
+      "sha256": "07fc5414e978ff73de3330695b6c1b01de32603680af37aee16fbf54b5e1286a",
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "powershell"
+      ]
+    },
+    {
+      "id": "dockerfile-syntax",
+      "name": "Dockerfile",
+      "description": "Syntax highlighting for Dockerfile (.dockerfile): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-dockerfile-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-dockerfile-syntax/releases/download/v0.0.1/dockerfile.wasm",
+      "sha256": "9c6d8d8c4786df3d894bcdc0f407da88b9b24d8e3dffafdb8d72b02369900253",
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "dockerfile"
+      ]
+    },
+    {
+      "id": "xml-syntax",
+      "name": "XML",
+      "description": "Syntax highlighting for XML (.xml, . xsd, . xsl, . xslt, . svg, . csproj, . plist, . props, . targets): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-xml-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-xml-syntax/releases/download/v0.0.1/xml.wasm",
+      "sha256": "5590fc424b910ee9b822fdedcd5a01eaee361a9bcb48842a24e2715e20205ea6",
+      "abi": "1.12",
+      "tags": [
+        "syntax",
+        "xml"
+      ]
     }
   ]
 }
