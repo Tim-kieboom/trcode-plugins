@@ -432,6 +432,106 @@
       "module": "https://github.com/Tim-kieboom/trcode-plugin-ocaml-syntax/releases/download/v0.0.1/ocaml.wasm",
       "sha256": "3a167655e277b42288aa0154d861be53285b0cafc8749b99d12a18957a3d4639",
       "abi": "1.12"
+    },
+    {
+      "id": "go-syntax",
+      "name": "Go",
+      "description": "Syntax highlighting for Go (.go): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-go-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-go-syntax/releases/download/v0.0.1/go.wasm",
+      "sha256": "01b48304013852358fe76e12295a807449a8b3f7531c2f3f96824983dc7ddcd7",
+      "abi": "1.12"
+    },
+    {
+      "id": "java-syntax",
+      "name": "Java",
+      "description": "Syntax highlighting for Java (.java): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-java-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-java-syntax/releases/download/v0.0.1/java.wasm",
+      "sha256": "3c9cd42496cc5343715347ef80bc9df0d1832349b302029e0e1f2302c2132a65",
+      "abi": "1.12"
+    },
+    {
+      "id": "csharp-syntax",
+      "name": "C#",
+      "description": "Syntax highlighting for C# (.cs, . csx): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-csharp-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-csharp-syntax/releases/download/v0.0.1/csharp.wasm",
+      "sha256": "bffee8f04add1094a04b82f26b0bbdfb29ffb8f5d732896876c934827b512d75",
+      "abi": "1.12"
+    },
+    {
+      "id": "yaml-syntax",
+      "name": "YAML",
+      "description": "Syntax highlighting for YAML (.yml, . yaml): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-yaml-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-yaml-syntax/releases/download/v0.0.1/yaml.wasm",
+      "sha256": "5615959407f7c14b60ddd9deaa3638642930df40e6315271441fe2aea1627114",
+      "abi": "1.12"
+    },
+    {
+      "id": "sql-syntax",
+      "name": "SQL",
+      "description": "Syntax highlighting for SQL (.sql): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-sql-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-sql-syntax/releases/download/v0.0.1/sql.wasm",
+      "sha256": "e76a29633e02f2c4391761fa7564b354e2a7508dea9b1458a2b8ec3486cb2a12",
+      "abi": "1.12"
+    },
+    {
+      "id": "php-syntax",
+      "name": "PHP",
+      "description": "Syntax highlighting for PHP (.php, . phtml): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-php-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-php-syntax/releases/download/v0.0.1/php.wasm",
+      "sha256": "78061225be6015f26a607237b566bd0b1ac62939db9f8e1dca934ccfb4dc1e63",
+      "abi": "1.12"
+    },
+    {
+      "id": "ruby-syntax",
+      "name": "Ruby",
+      "description": "Syntax highlighting for Ruby (.rb, . rake, . gemspec, . ru): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-ruby-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-ruby-syntax/releases/download/v0.0.1/ruby.wasm",
+      "sha256": "781f5bc2e9d8661cace36efe1dc99d4c215a335872d79ec92c20782ffda0ccc3",
+      "abi": "1.12"
+    },
+    {
+      "id": "kotlin-syntax",
+      "name": "Kotlin",
+      "description": "Syntax highlighting for Kotlin (.kt, . kts): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-kotlin-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-kotlin-syntax/releases/download/v0.0.1/kotlin.wasm",
+      "sha256": "c44884d6d640e150b1684e7429d16c041affc5a272444e1a23179b9bbade9978",
+      "abi": "1.12"
+    },
+    {
+      "id": "swift-syntax",
+      "name": "Swift",
+      "description": "Syntax highlighting for Swift (.swift): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-swift-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-swift-syntax/releases/download/v0.0.1/swift.wasm",
+      "sha256": "87d42706536e9d98cb1194154ca919d8b24cbf79f93738110edf8c50cc2aa55d",
+      "abi": "1.12"
+    },
+    {
+      "id": "zig-syntax",
+      "name": "Zig",
+      "description": "Syntax highlighting for Zig (.zig, . zon): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-zig-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-zig-syntax/releases/download/v0.0.1/zig.wasm",
+      "sha256": "8fbd344e08cde3b8b95fa6b02dbbc5428342dbade26f85bd8d5ed16c40d08fc5",
+      "abi": "1.12"
     }
   ]
 }
