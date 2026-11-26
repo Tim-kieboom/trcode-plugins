@@ -1,0 +1,20 @@
+# QML, and with it Quickshell's configuration files (shell.qml).
+id = "qml-syntax"
+name = "QML"
+description = "Syntax highlighting for QML and Quickshell"
+# "qml" is not one of the tags the editor knows yet (src/plugins/tags.rs, scripts/check_index.py); add it when it does.
+tags = ["syntax"]
+extensions = ["qml"]
+comment = "//"
+
+[grammar]
+repo = "yuja/tree-sitter-qmljs"
+tag = "latest"
+
+# The grammar is TypeScript's with QML added, and its own query only covers the QML parts: it
+# builds on JavaScript's and TypeScript's (in this order: the last one read wins in Neovim).
+[[query.inherit]]
+repo = "tree-sitter/tree-sitter-javascript"
+
+[[query.inherit]]
+repo = "tree-sitter/tree-sitter-typescript"

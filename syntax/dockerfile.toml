@@ -1,0 +1,11 @@
+id = "dockerfile-syntax"
+name = "Dockerfile"
+description = "Syntax highlighting for Dockerfile"
+tags = ["syntax", "dockerfile"]
+extensions = ["dockerfile"]
+comment = "#"
+
+readme_notes = "## Limit\n\nTerminalCode picks a language by the extension of a file, so this colors `*.dockerfile` (`api.dockerfile`, `dev.Dockerfile`). A file called just `Dockerfile` has no extension and is not colored until the editor can match a language by file name."
+[grammar]
+repo = "camdencheek/tree-sitter-dockerfile"
+tag = "latest"

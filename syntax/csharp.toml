@@ -1,0 +1,11 @@
+id = "csharp-syntax"
+name = "C#"
+description = "Syntax highlighting for C#"
+tags = ["syntax", "c#"]
+extensions = ["cs", "csx"]
+comment = "//"
+
+readme_notes = "The module is large (about 7 MB), so a C# file takes a moment (about 0.15 s on a laptop) to set up when it is opened."
+[grammar]
+repo = "tree-sitter/tree-sitter-c-sharp"
+tag = "latest"

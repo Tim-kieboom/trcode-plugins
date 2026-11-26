@@ -1,0 +1,10 @@
+id = "go-syntax"
+name = "Go"
+description = "Syntax highlighting for Go"
+tags = ["syntax", "go"]
+extensions = ["go"]
+comment = "//"
+
+[grammar]
+repo = "tree-sitter/tree-sitter-go"
+tag = "latest"

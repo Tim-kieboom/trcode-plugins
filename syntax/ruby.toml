@@ -1,0 +1,13 @@
+id = "ruby-syntax"
+name = "Ruby"
+description = "Syntax highlighting for Ruby"
+tags = ["syntax", "ruby"]
+extensions = ["rb", "rake", "gemspec", "ru"]
+comment = "#"
+
+[grammar]
+repo = "tree-sitter/tree-sitter-ruby"
+tag = "latest"
+
+[query]
+drop = ["#is-not? local"]

@@ -1,0 +1,15 @@
+id = "kotlin-syntax"
+name = "Kotlin"
+description = "Syntax highlighting for Kotlin"
+tags = ["syntax", "kotlin"]
+extensions = ["kt", "kts"]
+comment = "//"
+
+[grammar]
+repo = "fwcd/tree-sitter-kotlin"
+tag = "latest"
+
+[query]
+rename = {"exception" = "keyword.control", "repeat" = "keyword.control", "conditional" = "keyword.control", "parameter" = "variable.parameter", "include" = "keyword", "keyword.return" = "keyword.control", "keyword.function" = "keyword"}
+drop = ["(jump_expression) @keyword.return", "(primary_constructor) @constructor"]
+before = "[\"return\" \"throw\" \"break\" \"continue\"] @keyword.control"

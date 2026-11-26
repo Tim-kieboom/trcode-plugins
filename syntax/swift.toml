@@ -1,0 +1,12 @@
+id = "swift-syntax"
+name = "Swift"
+description = "Syntax highlighting for Swift"
+tags = ["syntax", "swift"]
+extensions = ["swift"]
+comment = "//"
+
+[grammar]
+repo = "alex-pinkus/tree-sitter-swift"
+tag = "latest"
+generate = true
+patch = "patches/swift-scanner.patch"

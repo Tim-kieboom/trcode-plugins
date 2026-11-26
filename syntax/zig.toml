@@ -1,0 +1,10 @@
+id = "zig-syntax"
+name = "Zig"
+description = "Syntax highlighting for Zig"
+tags = ["syntax", "zig"]
+extensions = ["zig", "zon"]
+comment = "//"
+
+[grammar]
+repo = "tree-sitter-grammars/tree-sitter-zig"
+tag = "latest"

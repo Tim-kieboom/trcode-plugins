@@ -1,0 +1,14 @@
+id = "sql-syntax"
+name = "SQL"
+description = "Syntax highlighting for SQL"
+tags = ["syntax", "sql"]
+extensions = ["sql"]
+comment = "--"
+
+[grammar]
+repo = "DerekStride/tree-sitter-sql"
+tag = "latest"
+generate = true
+
+[query]
+rename = {"conditional" = "keyword.control", "storageclass" = "keyword", "parameter" = "variable.parameter", "field" = "property"}

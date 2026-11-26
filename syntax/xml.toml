@@ -1,0 +1,16 @@
+id = "xml-syntax"
+name = "XML"
+description = "Syntax highlighting for XML"
+tags = ["syntax", "xml"]
+extensions = ["xml", "xsd", "xsl", "xslt", "svg", "csproj", "plist", "props", "targets"]
+
+[grammar]
+repo = "tree-sitter-grammars/tree-sitter-xml"
+tag = "latest"
+dir = "xml"
+generate = true
+patch = "patches/xml-scanner.patch"
+
+[query]
+rename = {"tag" = "type", "markup.heading" = "punctuation", "markup.raw" = "string", "markup.link" = "text.uri", "embedded" = "keyword"}
+files = ["queries/xml/highlights.scm"]

@@ -1,0 +1,10 @@
+id = "yaml-syntax"
+name = "YAML"
+description = "Syntax highlighting for YAML"
+tags = ["syntax", "yaml"]
+extensions = ["yml", "yaml"]
+comment = "#"
+
+[grammar]
+repo = "tree-sitter-grammars/tree-sitter-yaml"
+tag = "latest"

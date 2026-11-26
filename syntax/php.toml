@@ -1,0 +1,15 @@
+id = "php-syntax"
+name = "PHP"
+description = "Syntax highlighting for PHP"
+tags = ["syntax", "php"]
+extensions = ["php", "phtml"]
+comment = "//"
+
+[grammar]
+repo = "tree-sitter/tree-sitter-php"
+tag = "latest"
+dir = "php"
+
+[query]
+rename = {"tag" = "keyword", "module" = "namespace", "module.builtin" = "keyword"}
+drop = ["\"$\" @operator"]

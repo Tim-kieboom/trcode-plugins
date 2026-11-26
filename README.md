@@ -16,6 +16,7 @@ same version ever comes with another module, the editor refuses it.
 | [Tests](https://github.com/Tim-kieboom/trcode-plugin-test) | The tests of a project as folders, with Run buttons; a click opens a test's code, and what a failed test wrote is shown under the tests (needs plugin API 1.9, TerminalCode 0.9.4, and the Rust Test Adapter) |
 | [Fake Test Adapter](https://github.com/Tim-kieboom/trcode-plugin-test) | Made-up tests and a clock you turn, for the Tests pane (needs plugin API 1.8) |
 | [Rust Test Adapter](https://github.com/Tim-kieboom/trcode-plugin-test) | Lists and runs the tests of a Rust project with `cargo nextest` (must be installed) and finds the code of a test with `grep` (Linux and macOS), for the Tests pane (needs plugin API 1.8; runs commands in a folder you trust) |
+| Syntax highlighting: [Go](https://github.com/Tim-kieboom/trcode-plugin-go-syntax), [Java](https://github.com/Tim-kieboom/trcode-plugin-java-syntax), [C#](https://github.com/Tim-kieboom/trcode-plugin-csharp-syntax), [YAML](https://github.com/Tim-kieboom/trcode-plugin-yaml-syntax), [SQL](https://github.com/Tim-kieboom/trcode-plugin-sql-syntax), [PHP](https://github.com/Tim-kieboom/trcode-plugin-php-syntax), [Ruby](https://github.com/Tim-kieboom/trcode-plugin-ruby-syntax), [Kotlin](https://github.com/Tim-kieboom/trcode-plugin-kotlin-syntax), [Swift](https://github.com/Tim-kieboom/trcode-plugin-swift-syntax), [Zig](https://github.com/Tim-kieboom/trcode-plugin-zig-syntax), [PowerShell](https://github.com/Tim-kieboom/trcode-plugin-powershell-syntax), [Dockerfile](https://github.com/Tim-kieboom/trcode-plugin-dockerfile-syntax), [XML](https://github.com/Tim-kieboom/trcode-plugin-xml-syntax) | Each colors the files of one language with its tree-sitter grammar and query, a language and no code (needs plugin API 1.12, TerminalCode 0.11.0; Dockerfile colors `*.dockerfile`, not a file named just `Dockerfile`) |
 
 Your own list works the same way: put an `index.json` like this one in a repository and add its
 address to `plugin_sources` in `settings.json`. Its plugins are marked with where they come from,
@@ -34,6 +35,11 @@ It also works for a plugin that is only a language (a `[language]` table in its 
 for its hash, picks the `description.md` or README link, keeps the last description for a new
 version, refuses a version that is listed already, checks the result like CI does and writes
 `index.json`; commit and push it. `--dry-run` only shows the entry.
+
+A plugin that is only a language (a tree-sitter grammar and its highlight query) can be made from a short
+spec in `syntax/`: `python3 scripts/make_syntax_plugin.py syntax/go.toml` builds the grammar, converts the query for
+the editor, writes and commits the plugin folder, and with `--publish` creates the repository and release and runs
+`add_plugin.py`. See `syntax/README.md`.
 
 By hand, a plugin is a WebAssembly module with a `manifest.toml`; see the
 [Git plugin](https://github.com/Tim-kieboom/trcode-plugin-git) for one. Release it on GitHub

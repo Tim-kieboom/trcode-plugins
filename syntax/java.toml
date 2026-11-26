@@ -1,0 +1,10 @@
+id = "java-syntax"
+name = "Java"
+description = "Syntax highlighting for Java"
+tags = ["syntax", "java"]
+extensions = ["java"]
+comment = "//"
+
+[grammar]
+repo = "tree-sitter/tree-sitter-java"
+tag = "latest"

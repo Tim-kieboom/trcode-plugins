@@ -1,0 +1,14 @@
+id = "powershell-syntax"
+name = "PowerShell"
+description = "Syntax highlighting for PowerShell"
+tags = ["syntax", "powershell"]
+extensions = ["ps1", "psm1", "psd1"]
+comment = "#"
+
+[grammar]
+repo = "airbus-cert/tree-sitter-powershell"
+tag = "latest"
+
+[query]
+rename = {"delimiter" = "punctuation"}
+drop = ["@array", "@assignvalue"]
