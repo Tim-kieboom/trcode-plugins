@@ -754,6 +754,19 @@
         "syntax",
         "xml"
       ]
+    },
+    {
+      "id": "qml-syntax",
+      "name": "QML",
+      "description": "Syntax highlighting for QML and Quickshell (.qml): the tree-sitter grammar and query; a language and no code",
+      "version": "0.0.1",
+      "manifest": "https://github.com/Tim-kieboom/trcode-plugin-qml-syntax/releases/download/v0.0.1/manifest.toml",
+      "module": "https://github.com/Tim-kieboom/trcode-plugin-qml-syntax/releases/download/v0.0.1/qml.wasm",
+      "sha256": "4434f67d3e2f20c5f67404a6a5a90002686df12137837731deeea0d40c4a1f5c",
+      "abi": "1.12",
+      "tags": [
+        "syntax"
+      ]
     }
   ]
 }
